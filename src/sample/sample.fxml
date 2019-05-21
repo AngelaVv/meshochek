@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="meshok1" layoutX="33.0" layoutY="51.0" mnemonicParsing="false" onAction="#tupp" />
+      <Button fx:id="meshok2" layoutX="193.0" layoutY="51.0" mnemonicParsing="false" onAction="#tupp" />
+      <Button fx:id="meshok3" layoutX="343.0" layoutY="51.0" mnemonicParsing="false" onAction="#tupp" />
+      <Label layoutX="110.0" layoutY="14.0" text="Попытайте удачу, выберите мешок!">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="m1p" layoutX="26.0" layoutY="221.0" prefHeight="17.0" prefWidth="55.0" />
+      <Label layoutX="299.0" layoutY="226.0" prefHeight="25.0" prefWidth="164.0" text="У вас осталось попыток:">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font></Label>
+      <Label fx:id="popitki" layoutX="345.0" layoutY="251.0" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="gameover" layoutX="96.0" layoutY="124.0" prefHeight="57.0" prefWidth="271.0">
+         <font>
+            <Font size="46.0" />
+         </font></Label>
+      <Label layoutX="19.0" layoutY="202.0" lineSpacing="2.0" prefHeight="68.0" prefWidth="271.0" text="Вам необходимо набрать более 800 баллов! На это у вас есть 5 попыток без сохранения результата!" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
